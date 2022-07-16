@@ -1,7 +1,7 @@
 const textInput = document.querySelector("input");
 console.log(textInput);
 
-const handleClick = (event) => {
+const activeBlur = (event) => {
     const newTextInput = event.currentTarget.value;
     const validLength = Number(textInput.getAttribute("data-length"))
     if (newTextInput.length === validLength) {
@@ -13,4 +13,4 @@ const handleClick = (event) => {
         textInput.classList.add("invalid");  
     }
 }
-textInput.addEventListener("blur", handleClick);
+textInput.addEventListener("blur", activeBlur);
