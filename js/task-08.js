@@ -8,7 +8,7 @@ const submitForm = (event) => {
         return alert("Please fill in all the fields!");
     }
 
-    console.log(`Email: ${email.value}, Password: ${password.value}`);
+    console.log(`${email.name}: ${email.value}, ${password.name}: ${password.value}`);
     event.currentTarget.reset();
 }
 loginForm.addEventListener("submit", submitForm);

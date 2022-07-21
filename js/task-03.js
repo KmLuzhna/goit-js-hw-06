@@ -23,15 +23,6 @@ console.log(itemOfImages);
 listOfImages.insertAdjacentHTML("afterbegin", itemOfImages);
 
 
-listOfImages.style.display = "flex";
-listOfImages.style.alignItems = "center";
-listOfImages.style.justifyContent = "center";
-listOfImages.style.padding = "20px";
-listOfImages.style.gridGap = "60px";
-listOfImages.style.listStyle = "none";
-listOfImages.style.border = "1.5px solid #d3e0db";
-listOfImages.style.backgroundColor = `#f2f7f5`;
-
 
 
 
